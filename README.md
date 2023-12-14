@@ -6,16 +6,16 @@ This project is a sample illustrating the power of parallelism in .NET 7. The Bo
 
 ## Apis
 
-1. **Add Books**
-   - Endpoint: `POST /Book`
+1. **Get all Books**
+   - Endpoint: `GET /Books`
    - Initializes all books and returns the list of books with pages.
 
 2. **Get Page**
-   - Endpoint: `GET /Book/{bookId}/{pageNumber}`
+   - Endpoint: `GET /Books/{bookId}/{pageNumber}`
    - Retrieves a specific page of the book based on the provided book ID and page number.
 
 3. **Change Font Size**
-   - Endpoint: `PUT /Book/{bookId}/{fontSize}`
+   - Endpoint: `PUT /Books/{bookId}/{fontSize}`
    - Changes the font size of the book and returns the book with suitable words per page.
 
 ## Contributions Welcome
